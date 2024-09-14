@@ -83,11 +83,6 @@ int main()
 {
     int gd = DETECT, gm, start = 200, size = 8;
     initgraph(&gd, &gm, NULL);
-    char title[] = "BUBBLE SORT ANIMATION";    outtextxy(200, start - 30, title);
-    char members[5][13] = {"A project by", "   1.Tanvi  ", "   2.Chaitra", "   3.Shreya ", "   4.Ashwini"};
-    for (int i = 0; i < 5; i++)
-        outtextxy(250, start+i*20, members[i]);
-    delay(5000);    cleardevice();
     char PROBLEM[] ="PROBLEM : Arrange them in ascending order of their height";         
     outtext(PROBLEM);
     char SOLUTION[] ="SOLUTION : Use Bubble sort ";  outtextxy(0, 20, SOLUTION);
